@@ -1,6 +1,6 @@
 
 
-var i= "yes";
+var i= 1+2-3;
 let b= "not";
 const c="king";
 
