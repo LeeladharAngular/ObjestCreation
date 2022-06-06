@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function printallArguments(a){
+            var x=1;
+            for (i=0;i<10;i++){
+                console.log(arguments[i]);
+                a();
+                let y=10;
+                console.log(y);
+            }
+            console.log(y);
+
+
+
+        }
+        //console.log(x);
+        printallArguments(
+            function aa(){
+                console.log("leelu lucky")
+
+            }
+        );
+    </script>
+</body>
+</html>
